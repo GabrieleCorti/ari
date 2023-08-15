@@ -8,8 +8,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100svh;
-  overflow: hidden;
+  min-height: 100svh;
+  overflow: auto;
 }
 
 div {
