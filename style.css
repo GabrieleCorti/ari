@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100svh;
+  overflow: hidden;
+}
+
+div {
+  width: 100%;
+  text-align: center;
+}
+
+p {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-weight: bold;
+  font-size: 1.25rem;
+  height: 418px;
+}
+
+.text-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-left: 15px;
+  height: 0;
+  overflow: hidden;
+  transition: height 500ms ease-out;
+}
+
+.open {
+  height: 418px;
+}
+
+.top {
+  margin-left: 33px;
+}
